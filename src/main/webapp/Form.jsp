@@ -11,7 +11,7 @@
 	<form action="${pageContext.request.contextPath}/JavaCalc" method="post">
 		<label for="first">Высота:</label>
 		<input type="text" name="first" id="first" value="${first}">
-		<label for="second">Кол-во сторон: </label>
+		<label for="second">Кол-ыво сторон: </label>
 		<input type="text" name="second" id="second" value="${second}">
 		<label for="second">Сторона основания: </label>
 		<input type="text" name="third" id="third" value="${third}">

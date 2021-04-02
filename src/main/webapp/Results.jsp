@@ -10,7 +10,7 @@
 <h1>Результат нахождения объема правильной пирамиды</h1>
 <h2>Ваши введеные данные:</h2>
 <p><strong>Высота:</strong> ${first_result}</p>
-<p><strong>Кол-во сторон:</strong> ${second_result}</p>
+<p><strong>Количествово сторон:</strong> ${second_result}</p>
 <p><strong>Сторона основания:</strong> ${third_result}</p>
 <p><strong>Результат:</strong> ${result}</p>
 
