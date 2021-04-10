@@ -9,11 +9,11 @@
 <body>
 <h1>Калькулятор - нахождение объема правильной пирамиды</h1>
 	<form action="${pageContext.request.contextPath}/JavaCalc" method="post">
-		<label for="first">Высота:</label>
+		<label for="first">Высота(мм):</label>
 		<input type="text" name="first" id="first" value="${first}">
 		<label for="second">Количество сторон: </label>
 		<input type="text" name="second" id="second" value="${second}">
-		<label for="second">Сторона основания: </label>
+		<label for="second">Сторона основания(мм): </label>
 		<input type="text" name="third" id="third" value="${third}">
 		<input type="submit" name="sign" value="Calculate">
 	</form>
