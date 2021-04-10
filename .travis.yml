@@ -4,9 +4,9 @@ deploy:
     secure: flbbf62DU786dWlY/jQ21QjBKSkyQw5yhKeA/vxHjhmERRLIReXyJb4p9+IZ5eePkVrbbvMZ6CSbUVrY1JXcU1LG0FxKdORXiQTytveGzMTJKNt72jcKnPPehv8oigUVr/R0HEalq6wvDl4vg93ZT3yTjYxEGHXKaxb+h2XlTEwD9LhKqd6oMee5RFvqwwHn7DnRtmxyXeP83OVg21/hkwPeYSqTSa60L5Pn4lvvtmZg+8LO6Tgtq1X623MApbjmHF3hc70cnEyg+qe47ryexEOkwhq50XXF09MUC0fgj8mO7KKpwvm8DL5EIq/PoC1x3pOZWrRQjgDJicPObqO79uyEzciikf5uhT+vu+/y2KP4/MTPmZ09ePyiNhN35p+LG7y2DzFypda05QvlPN/FQNk3T0yTkuEaDV8pA8z6Uhk4nWPXuZKt65e0zAUlKKwku7eIpMoRYdpjL7pcjwknuwoziUqf/2vgU46PFAHlHfmKv8sal/bc6gAc/BKYPXvY4NbsuWIMb7EzOHnbSephTypf92ZyhJqRjqZgRQ2USElJN5Nja5dszxWhIxOMweDURf/PSz1tie1myDbZC6I7Ua5BquS2/0nBDtQNkaPQXP0APY30DFTBrG1db+C/yhjUHFF1VGzIhEeMm8yLNpdXHDCwCSQrQlEWgKVS0ZBvIho=
   app: 
      master: pi223team24
-     shamsutdinov: brahch shamsutdinov
-     leontev: branch leontev
-     denisov: branc denisov
+     shamsutdinov: branch-shamsutdinov
+     leontev: branch-leontev
+     denisov: branch-denisov
 language: java
 script:
 - mvn clean package
