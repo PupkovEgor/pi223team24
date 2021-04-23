@@ -16,14 +16,14 @@ public class Calc extends HttpServlet {
 		Calc.setAsRequestAttributesAndCalculate(request);
 		 
 		request.getRequestDispatcher("/Results.jsp").forward(request, response);
-		
 	}
 	
 	private static class RequestCalc {
 		private final String first_calc;
 		private final String second_calc;
 		private final String third_calc;
-		private double result;
+		private String result;
+		private double kk;
 						
 		private RequestCalc (String first, String second, String third) {
 			this.first_calc = first;
@@ -56,11 +56,13 @@ public class Calc extends HttpServlet {
 				third_try= 0;
 			}
 			if (first_try>0 & second_try>0 & third_try>0) {
-			result=(second_try*third_try*third_try*first_try)/(12*Math.tan(Math.toRadians(180)/second_try));
+				kk=(second_try*third_try*third_try*first_try)/(12*Math.tan(Math.toRadians(180)/second_try));
+			result = "" + kk;
+			} else result = "¬ведите положительные числа в пол€";
 			if (second_try<3) {
-        		result = 0;
+        		result = "¬ведите количество сторон основани€ больше 2";
 			}
-		}; 
+		
 			request.setAttribute("result", result);
 		}
 		
