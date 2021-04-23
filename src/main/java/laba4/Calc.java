@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name="Calc", urlPatterns="/JavaCalc") //связывание сервлета с URL
+@WebServlet(name="Calc", urlPatterns="/JavaCalc") //СЃРІСЏР·С‹РІР°РЅРёРµ СЃРµСЂРІР»РµС‚Р° СЃ URL
 public class Calc extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -59,9 +59,9 @@ public class Calc extends HttpServlet {
 				kk=(second_try*third_try*third_try*first_try)/(12*Math.tan(Math.toRadians(180)/second_try));
 				result = "" + kk;
 				}
-				else result = "Введите положительные числа в поля";
+				else result = "РІРІРµРґРёС‚Рµ РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹Рµ С‡РёСЃР»Р° РІ РїРѕР»СЏ";
 				if (second_try<3) {
-				result = "Введите количество сторон основания больше 2";
+				result = "пїЅРІРІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚РѕСЂРѕРЅ РѕСЃРЅРѕРІР°РЅРёСЏ Р±РѕР»СЊС€Рµ 2";
 				} 
 			request.setAttribute("result", result);
 		}
