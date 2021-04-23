@@ -60,7 +60,7 @@ public class Calc extends HttpServlet {
 			result = "" + kk;
 			} else result = "Введите положительные числа в поля";
 			if (second_try<3) {
-        		result = "Введите количество сторон больше 2";
+        		result = "Введите количество сторон основания больше 2";
 			}
 		
 			request.setAttribute("result", result);
