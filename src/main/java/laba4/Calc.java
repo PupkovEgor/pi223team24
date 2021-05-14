@@ -59,9 +59,9 @@ public class Calc extends HttpServlet {
 				kk=(second_try*third_try*third_try*first_try)/(12*Math.tan(Math.toRadians(180)/second_try));
 				result = "" + kk;
 				}
-				else result = "РІРІРµРґРёС‚Рµ РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹Рµ С‡РёСЃР»Р° РІ РїРѕР»СЏ";
+				else result = "введите положительные числа в поля";
 				if (second_try<3) {
-				result = "РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚РѕСЂРѕРЅ РѕСЃРЅРѕРІР°РЅРёСЏ Р±РѕР»СЊС€Рµ 2";
+				result = "Проверка - Лабораторная! ведите количество сторон основания больше 2";
 				} 
 			request.setAttribute("result", result);
 		}
